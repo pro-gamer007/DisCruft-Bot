@@ -5,6 +5,6 @@ const { Client, Message } = require('discord.js');
  * @param {Client} client
  */
 module.exports = client => {
-	console.log('Bot is online!');
+	console.log(`${client.user.username} is now online!`);
 };
 
